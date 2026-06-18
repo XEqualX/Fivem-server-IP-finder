@@ -3,6 +3,13 @@
 #include <cpr/cpr.h>
 #include <nlohmann/json.hpp>
 
+#pragma comment(lib, "ws2_32.lib")
+#pragma comment(lib, "wldap32.lib")
+#pragma comment(lib, "crypt32.lib")
+#pragma comment(lib, "normaliz.lib")
+#pragma comment(lib, "iphlpapi.lib")
+#pragma comment(lib, "secur32.lib")
+
 using json = nlohmann::json;
 
 int menu()
