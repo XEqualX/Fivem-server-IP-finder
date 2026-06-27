@@ -15,7 +15,7 @@ using json = nlohmann::json;
 int menu()
 {
 		std::cout << "1. View server IP\n";
-		std::cout << "2. View server resources\n"; // player names may mixed in for some reason, not my API and ive got no clue how to fix it.
+		std::cout << "2. View server resources\n";
 		std::cout << "3. View server name\n";
 		std::cout << "4. View extra info\n"; // caution while using, it prints unicode characters depending on the servers bio and stuff.
 		int choice{};
